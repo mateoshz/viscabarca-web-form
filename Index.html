@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tu Nombre - 7° 2°">
+    <meta name="description" content="Visca Barca - Tienda oficial de ropa del FC Barcelona">
+    <title>Visca Barca - Tienda FC Barcelona</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="estilo.css">
+
+    
+    <style>
+        .navbar-barca { background-color: #A50044 !important; }
+        .header-barca { background: linear-gradient(135deg, #004D98 60%, #A50044 100%); }
+        .card-producto { border: 2px solid #004D98; transition: transform 0.2s, box-shadow 0.2s; }
+        .card-producto:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,77,152,0.2); }
+        .card-producto .card-header { background-color: #004D98; color: #FFED00; font-weight: bold; }
+        .badge-disponible { background-color: #28a745; }
+        .badge-limitado { background-color: #A50044; }
+        .hero-section { background: linear-gradient(135deg, #004D98 0%, #A50044 100%); color: white; padding: 60px 0; text-align: center; }
+        .cita-barca { background-color: #EEF4FF; border-left: 5px solid #004D98; padding: 20px 25px; border-radius: 0 10px 10px 0; font-style: italic; font-size: 18px; color: #004D98; }
+        .divider-barca { border: none; border-top: 3px solid #A50044; margin: 40px 0; }
+    </style>
+
+</head>
+
+<body style="background-color: #f5f0e8;">
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-barca sticky-top">
+        <div class="container">
+
+            
+            <a class="navbar-brand fw-bold fs-4" href="#inicio">
+                <img src="imagenes/logo Visca Barca.jpg" alt="Logo" width="35" height="35"
+                    class="d-inline-block align-text-top rounded-circle me-2">
+                ⚽ Visca Barca
+            </a>
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">
+                            <i class="bi bi-house-door me-1"></i>Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienes-somos">
+                            <i class="bi bi-people me-1"></i>Quiénes Somos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ropa">
+                            <i class="bi bi-bag me-1"></i>Ropa
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accesorios">
+                            <i class="bi bi-stars me-1"></i>Accesorios
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promociones">
+                            <i class="bi bi-tag me-1"></i>Promociones
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">
+                            <i class="bi bi-envelope me-1"></i>Contacto
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    
+    <header class="hero-section" id="inicio">
+        <div class="container">
+
+            
+            <img src="imagenes/logo Visca Barca.jpg" alt="Logo Visca Barca" width="130"
+                class="rounded-circle border border-4 border-warning mb-3">
+
+            <h1 class="display-3 fw-bold text-warning">Visca Barca</h1>
+            <h2 class="h4 fw-light text-white-50">La tienda oficial del alma blaugrana</h2>
+
+            
+            <p class="fs-5 fst-italic text-warning mt-3">"Més que un club"</p>
+
+            
+            <div class="mt-4">
+                <a href="#ropa" class="btn btn-warning btn-lg fw-bold me-3 px-4">
+                    <i class="bi bi-bag me-2"></i>Ver Ropa
+                </a>
+                <a href="#contacto" class="btn btn-outline-light btn-lg px-4">
+                    <i class="bi bi-envelope me-2"></i>Contactanos
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+
+    
+    <main class="container py-4">
+
+        
+        <section id="quienes-somos" class="py-4">
+
+            <h2 class="text-primary fw-bold border-bottom border-danger pb-2 mb-4">
+                <i class="bi bi-people-fill me-2"></i>Quiénes Somos
+            </h2>
+
+            
+            <div class="row g-4 align-items-center">
+
+                
+                <div class="col-lg-7">
+                    <article class="card shadow-sm border-0">
+                        <div class="card-body p-4">
+
+                            <h3 class="card-title text-danger">Nuestra Historia</h3>
+
+                            <p class="card-text">
+                                <strong>Visca Barca</strong> nació en 2010 de la mano de un grupo de hinchas
+                                apasionados del <em>Fútbol Club Barcelona</em> que querían tener un lugar donde
+                                conseguir ropa y accesorios oficiales del club en Argentina.
+                            </p>
+
+                            <p class="card-text">
+                                Con más de <mark>15 años de experiencia</mark>, somos el punto de encuentro
+                                de todos los culés del país.
+                            </p>
+
+                            <h3 class="text-danger mt-3">Nuestra Misión</h3>
+
+                            <p class="card-text">
+                                Brindar productos de <u>alta calidad y 100% originales</u> del FC Barcelona,
+                                con atención personalizada y precios accesibles para todos los fanáticos.
+                            </p>
+
+                            <h3 class="text-danger mt-3">Una frase que nos define</h3>
+
+                            
+                            <div class="cita-barca mt-3">
+                                <strong>"El Barça no es un equipo de fútbol, es una manera de ver la vida."</strong>
+                                <br>
+                                <small class="text-muted">— Johan Cruyff, leyenda del FC Barcelona</small>
+                            </div>
+
+                        </div>
+                    </article>
+                </div>
+
+                
+                <div class="col-lg-5 text-center">
+                    
+                    <img src="imagenes/QUIENES SOMOS.jpg" alt="Nuestro equipo"
+                        class="img-fluid rounded-3 border border-3 border-warning shadow">
+                </div>
+
+            </div>
+
+        </section>
+
+        <hr class="divider-barca">
+
+
+        
+        <section id="ropa" class="py-4">
+
+            <h2 class="text-primary fw-bold border-bottom border-danger pb-2 mb-4">
+                <i class="bi bi-bag-fill me-2"></i>Nuestra Ropa
+            </h2>
+
+            <p class="lead">
+                Contamos con una amplia selección de indumentaria oficial del
+                <strong>FC Barcelona</strong>. Desde la camiseta titular hasta la equipación alternativa.
+            </p>
+
+            
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+
+                
+                <div class="col">
+                    <div class="card h-100 card-producto">
+                        <div class="card-header">
+                            <i class="bi bi-patch-check me-1"></i> Camiseta Titular
+                        </div>
+                        
+                        <img src="imagenes/CASACA TITULAR 2024,25.jpg" class="card-img-top p-3"
+                            alt="Camiseta titular FC Barcelona" style="height: 200px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta Titular 2024/25</h5>
+                            <p class="card-text text-muted">
+                                La camiseta más icónica. Colores blaugrana clásicos.
+                            </p>
+                            <p class="fw-bold text-primary fs-5">$85.000</p>
+                            <span class="badge badge-disponible text-white">✔ Disponible</span>
+                            <br>
+                            <small class="text-muted">Talles: XS / S / M / L / XL / XXL</small>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col">
+                    <div class="card h-100 card-producto">
+                        <div class="card-header">
+                            <i class="bi bi-arrow-repeat me-1"></i> Camiseta Alternativa
+                        </div>
+                        
+                        <img src="imagenes/SEGUNDA CASACA 2024,25.jpg" class="card-img-top p-3"
+                            alt="Camiseta alternativa FC Barcelona" style="height: 200px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta Alternativa 2024/25</h5>
+                            <p class="card-text text-muted">
+                                Segunda equipación oficial. Diseño moderno.
+                            </p>
+                            <p class="fw-bold text-primary fs-5">$85.000</p>
+                            <span class="badge badge-disponible text-white">✔ Disponible</span>
+                            <br>
+                            <small class="text-muted">Talles: S / M / L / XL</small>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col">
+                    <div class="card h-100 card-producto">
+                        <div class="card-header">
+                            <i class="bi bi-clock-history me-1"></i> Edición Retro
+                        </div>
+                        
+                        <img src="imagenes/CASACA RETRO 2004,05.jpg" class="card-img-top p-3"
+                            alt="Camiseta retro FC Barcelona" style="height: 200px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta Retro 2004/05</h5>
+                            <p class="card-text text-muted">
+                                Edición limitada de colección. Diseño clásico de los años dorados.
+                            </p>
+                            <p class="fw-bold text-primary fs-5">$95.000</p>
+                            <span class="badge badge-limitado text-white">⚠ Últimas unidades</span>
+                            <br>
+                            <small class="text-muted">Talles: M / L / XL</small>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col">
+                    <div class="card h-100 card-producto">
+                        <div class="card-header">
+                            <i class="bi bi-wind me-1"></i> Buzo con Capucha
+                        </div>
+                        
+                        <img src="imagenes/BUZO BARCA.jpg" class="card-img-top p-3"
+                            alt="Buzo FC Barcelona" style="height: 200px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Buzo con Capucha Oficial</h5>
+                            <p class="card-text text-muted">
+                                Abrigado y cómodo. Ideal para el día a día con escudo bordado.
+                            </p>
+                            <p class="fw-bold text-primary fs-5">$75.000</p>
+                            <span class="badge badge-disponible text-white">✔ Disponible</span>
+                            <br>
+                            <small class="text-muted">Talles: S / M / L / XL / XXL</small>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col">
+                    <div class="card h-100 card-producto">
+                        <div class="card-header">
+                            <i class="bi bi-cloud-rain me-1"></i> Campera
+                        </div>
+                        
+                        <img src="imagenes/CAMPERA BARCA.jpg" class="card-img-top p-3"
+                            alt="Campera FC Barcelona" style="height: 200px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Campera Rompeviento</h5>
+                            <p class="card-text text-muted">
+                                Resistente al viento. Colores blaugrana oficiales.
+                            </p>
+                            <p class="fw-bold text-primary fs-5">$110.000</p>
+                            <span class="badge badge-disponible text-white">✔ Disponible</span>
+                            <br>
+                            <small class="text-muted">Talles: M / L / XL</small>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col">
+                    <div class="card h-100 card-producto">
+                        <div class="card-header">
+                            <i class="bi bi-trophy me-1"></i> Short de Juego
+                        </div>
+                        
+                        <img src="imagenes/SHORT TITULAR.jpg" class="card-img-top p-3"
+                            alt="Short FC Barcelona" style="height: 200px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Short de Juego Oficial</h5>
+                            <p class="card-text text-muted">
+                                Short deportivo liviano. Combiná con la camiseta titular.
+                            </p>
+                            <p class="fw-bold text-primary fs-5">$35.000</p>
+                            <span class="badge badge-disponible text-white">✔ Disponible</span>
+                            <br>
+                            <small class="text-muted">Talles: S / M / L / XL</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+            <h3 class="text-danger mt-5 mb-3">
+                <i class="bi bi-table me-2"></i>Tabla de Precios — Ropa
+            </h3>
+
+            
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                    <caption class="text-center fw-bold"
+                        style="background-color: #004D98; color: #FFED00; padding: 10px;">
+                        Precios de indumentaria FC Barcelona (en pesos argentinos)
+                    </caption>
+                    <thead style="background-color: #A50044; color: white;">
+                        <tr>
+                            <th>Producto</th>
+                            <th>Talles</th>
+                            <th>Precio</th>
+                            <th>Stock</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Camiseta titular 2024/25</td>
+                            <td>XS al XXL</td>
+                            <td class="fw-bold text-primary">$85.000</td>
+                            <td><span class="badge bg-success">Disponible</span></td>
+                        </tr>
+                        <tr>
+                            <td>Camiseta alternativa 2024/25</td>
+                            <td>S al XL</td>
+                            <td class="fw-bold text-primary">$85.000</td>
+                            <td><span class="badge bg-success">Disponible</span></td>
+                        </tr>
+                        <tr>
+                            <td>Camiseta retro 2004/05</td>
+                            <td>M al XL</td>
+                            <td class="fw-bold text-primary">$95.000</td>
+                            <td><span class="badge bg-danger">Últimas unidades</span></td>
+                        </tr>
+                        <tr>
+                            <td>Buzo con capucha</td>
+                            <td>S al XXL</td>
+                            <td class="fw-bold text-primary">$75.000</td>
+                            <td><span class="badge bg-success">Disponible</span></td>
+                        </tr>
+                        <tr>
+                            <td>Campera rompeviento</td>
+                            <td>M al XL</td>
+                            <td class="fw-bold text-primary">$110.000</td>
+                            <td><span class="badge bg-success">Disponible</span></td>
+                        </tr>
+                        <tr>
+                            <td>Short de juego</td>
+                            <td>S al XL</td>
+                            <td class="fw-bold text-primary">$35.000</td>
+                            <td><span class="badge bg-success">Disponible</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <hr class="divider-barca">
+
+
+        
+			 
+        <section id="accesorios" class="py-4">
+
+            <h2 class="text-primary fw-bold border-bottom border-danger pb-2 mb-4">
+                <i class="bi bi-stars me-2"></i>Accesorios
+            </h2>
+
+            <p class="lead">
+                Completá tu look blaugrana con nuestra línea de accesorios oficiales.
+            </p>
+
+            
+			 <div class="col">
+                    <div class="card h-100 card-producto">
+                        <div class="card-header">
+                            <i class="bi bi-cloud-rain me-1"></i> Bufanda
+                        </div>
+                        
+                        <img src="imagenes/BUFANDA.jpg" class="card-img-top p-3"
+                            alt="Bufanda FC Barcelona" style="height: 200px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Bufanda blaugrana oficial</h5>
+                            <p class="card-text text-muted">
+                                Tejida, doble cara. Colores blaugrana oficiales.
+                            </p>
+                            <p class="fw-bold text-primary fs-5">$25.000</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="row g-4">
+
+               <div class="col">
+                    <div class="card h-100 card-producto">
+                        <div class="card-header">
+                            <i class="bi bi-cloud-rain me-1"></i> Gorra
+                        </div>
+                        
+                        <img src="imagenes/GORRA.jpg" class="card-img-top p-3"
+                            alt="Gorra FC Barcelona" style="height: 200px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title"> Gorra con escudo bordado</h5>
+                            <p class="card-text text-muted">
+                               Escudo bordado. Colores blaugrana oficiales.
+                            </p>
+                            <p class="fw-bold text-primary fs-5">$20.000</p>
+                        </div>
+                    </div>
+                </div>
+			</div>
+            <div class="row g-4">
+			
+			<div class="col">
+                    <div class="card h-100 card-producto">
+                        <div class="card-header">
+                            <i class="bi bi-cloud-rain me-1"></i> Mochila
+                        </div>
+                        
+                        <img src="imagenes/MOCHILA.jpg" class="card-img-top p-3"
+                            alt="Mochila FC Barcelona" style="height: 200px; object-fit: contain;">
+                        <div class="card-body">
+                            <h5 class="card-title">Mochila oficial</h5>
+                            <p class="card-text text-muted">
+                                Resistente al agua, 30L.
+                            </p>
+                            <p class="fw-bold text-primary fs-5">$55.000</p>
+                        </div>
+                    </div>
+                </div>
+			</div>
+                <div class="col-md-7">
+                    <h3 class="text-danger">Precios</h3>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover">
+                            <caption style="background-color: #004D98; color: #FFED00; padding: 8px; text-align: center; font-weight: bold;">
+                                Accesorios FC Barcelona
+                            </caption>
+                            <thead style="background-color: #A50044; color: white;">
+                                <tr>
+                                    <th>Accesorio</th>
+                                    <th>Descripción</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Bufanda</td>
+                                    <td>Tejida, doble cara</td>
+                                    <td class="fw-bold text-primary">$25.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Gorra</td>
+                                    <td>Escudo bordado, ajustable</td>
+                                    <td class="fw-bold text-primary">$20.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Mochila</td>
+                                    <td>Resistente al agua, 30L</td>
+                                    <td class="fw-bold text-primary">$55.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <hr class="divider-barca">
+
+
+        
+        <section id="promociones" class="py-4">
+
+            <h2 class="text-primary fw-bold border-bottom border-danger pb-2 mb-4">
+                <i class="bi bi-tag-fill me-2"></i>Promociones del Mes
+            </h2>
+
+            
+            <img src="imagenes/OFERTAS.jpg" alt="Promociones Visca Barca"
+                class="img-fluid rounded-3 border border-warning d-block mx-auto mb-4"
+                style="max-width: 500px;">
+
+            
+            <div class="alert alert-warning border-start border-5 border-warning" role="alert">
+                <strong><i class="bi bi-2-circle me-2"></i>2x1 en bufandas</strong> — Llevate dos y pagá una. Solo este mes.
+            </div>
+
+            <div class="alert alert-success border-start border-5 border-success" role="alert">
+                <strong><i class="bi bi-percent me-2"></i>20% de descuento</strong> en camisetas retro con código
+                <span class="badge bg-dark">VISCA20</span>
+            </div>
+
+            <div class="alert alert-info border-start border-5 border-info" role="alert">
+                <strong><i class="bi bi-truck me-2"></i>Envío gratis</strong> en compras superiores a $100.000
+            </div>
+
+            <div class="alert alert-danger border-start border-5 border-danger" role="alert">
+                <strong><i class="bi bi-box-seam me-2"></i>Kit starter culé</strong> — Camiseta + Short por $95.000
+            </div>
+
+            <div class="alert alert-primary border-start border-5 border-primary" role="alert">
+                <strong><i class="bi bi-envelope-heart me-2"></i>10% OFF</strong> en tu primera compra al suscribirte al newsletter
+            </div>
+
+            <p class="text-muted fst-italic">
+                <small>Las promociones tienen stock limitado y pueden finalizar sin previo aviso.</small>
+            </p>
+
+        </section>
+
+        <hr class="divider-barca">
+
+
+        
+        <section id="contacto" class="py-4">
+			<h2 class="text-primary fw-bold border-bottom border-danger pb-2 mb-4">
+                <i class="bi bi-tag-fill me-2"></i>Contacto
+            </h2>
+            
+           <form action="https://formsubmit.co/mateospro123@gmail.com" method="POST" id="formularioContacto">
+
+    <input type="hidden" name="_captcha" value="false">
+
+    <input type="hidden" name="_next" value="http://localhost/">
+
+    <div class="mb-3">
+        <label class="form-label">Nombre Completo</label>
+        <input type="text" class="form-control" id="nombre" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Asunto</label>
+        <input type="text" class="form-control" id="asunto" required>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Enviar Consulta
+    </button>
+
+			</form>
+
+        </section>
+
+    </main>
+
+
+    
+    <footer class="text-white py-4 mt-4" style="background-color: #0d0d1e;">
+
+        <div class="container">
+
+            
+            <div class="row g-4">
+
+                
+                <div class="col-md-4">
+                    <h5 class="text-warning fw-bold fs-4">
+                        <i class="bi bi-dribbble me-2"></i>Visca Barca
+                    </h5>
+                    <p class="text-secondary">
+                        Tienda oficial de ropa e indumentaria del FC Barcelona en Argentina.
+                        Toda la pasión blaugrana en un solo lugar.
+                    </p>
+                </div>
+
+                
+                <div class="col-md-4">
+                    <h6 class="text-warning fw-bold mb-3">Navegación</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#inicio" class="text-secondary text-decoration-none">
+                            <i class="bi bi-chevron-right me-1"></i>Inicio</a></li>
+                        <li><a href="#quienes-somos" class="text-secondary text-decoration-none">
+                            <i class="bi bi-chevron-right me-1"></i>Quiénes Somos</a></li>
+                        <li><a href="#ropa" class="text-secondary text-decoration-none">
+                            <i class="bi bi-chevron-right me-1"></i>Ropa</a></li>
+                        <li><a href="#accesorios" class="text-secondary text-decoration-none">
+                            <i class="bi bi-chevron-right me-1"></i>Accesorios</a></li>
+                        <li><a href="#promociones" class="text-secondary text-decoration-none">
+                            <i class="bi bi-chevron-right me-1"></i>Promociones</a></li>
+                        <li><a href="#contacto" class="text-secondary text-decoration-none">
+                            <i class="bi bi-chevron-right me-1"></i>Contacto</a></li>
+                    </ul>
+                </div>
+
+                
+                <div class="col-md-4">
+                    <h6 class="text-warning fw-bold mb-3">Contacto</h6>
+                    <p class="text-secondary mb-1">
+                        <i class="bi bi-telephone me-2"></i>+54 264 6280818
+                    </p>
+                    <p class="text-secondary mb-1">
+                        <i class="bi bi-envelope me-2"></i>viscabarca4@gmail.com
+                    </p>
+                    <p class="text-secondary mb-1">
+                        <i class="bi bi-whatsapp me-2"></i>+54 264 6280818
+                    </p>
+                    <div class="mt-3">
+                        
+                        <a href="https://www.fcbarcelona.es" target="_blank"
+                            class="btn btn-outline-warning btn-sm me-2">
+                            <i class="bi bi-globe me-1"></i>Barça Oficial
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank"
+                            class="btn btn-outline-light btn-sm">
+                            <i class="bi bi-instagram me-1"></i>Instagram
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="border-secondary mt-3">
+
+            
+            <div class="row">
+                <div class="col text-center">
+                    <p class="text-secondary mb-1">
+                        <small>Tienda 100% Online</small>
+                    </p>
+                    <p class="text-secondary">
+                        <small>&copy; 2025 Visca Barca. Todos los derechos reservados.</small>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="script.js.js"></script>
+
+</body>
+
+</html>
